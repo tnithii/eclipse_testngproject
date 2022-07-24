@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opened]]>
+    </line>
+    <line>
+      <![CDATA[hi ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser opened]]>
+    </line>
+    <line>
+      <![CDATA[hello ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-16T14:11:36 PDT" name="Default suite" finished-at="2022-07-16T14:11:36 PDT" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2022-07-16T14:11:36 PDT" name="Default test" finished-at="2022-07-16T14:11:36 PDT" duration-ms="83">
+      <class name="testproject.Testngexample.Reporterlog">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="beforeMethod" finished-at="2022-07-16T14:11:36 PDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Reporterlog.f()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a] output=Browser opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="f" finished-at="2022-07-16T14:11:36 PDT" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hi ]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="afterMethod" finished-at="2022-07-16T14:11:36 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=Reporterlog.f()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a] output=hi ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="beforeMethod" finished-at="2022-07-16T14:11:36 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Reporterlog.f1()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a] output=Browser opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f1()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="f1" finished-at="2022-07-16T14:11:36 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello ]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a]" started-at="2022-07-16T14:11:36 PDT" name="afterMethod" finished-at="2022-07-16T14:11:36 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f1 status=SUCCESS method=Reporterlog.f1()[pri:0, instance:testproject.Testngexample.Reporterlog@1af2d44a] output=hello ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testproject.Testngexample.Reporterlog -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
